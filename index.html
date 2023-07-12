@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <h1 class="main-type">PASSWORD GENERATOR</h1>
+        <div>
+            <input type="checkbox" id="specialchar">
+            <label for="specialchar" class="password-type">Special Character</label>
+        </div>
+        <button class="button-type" type="button" id="generate-button">Generate</button>
+        <div class="sub-type" id="sub-type">Random Password Generated is :</div>
+        <div>
+            <span class="password-type"  id="password-generate"></span>
+            <button class="fa-solid fa-clipboard fa-lg" id="clipboard"></button>
+        </div>
+    </div>
+</body>
+
+</html>

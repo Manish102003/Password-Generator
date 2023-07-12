@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background: url("https://images.unsplash.com/photo-1669023414162-5bb06bbff0ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 1.6rem;
+    height: 100vh;
+}
+
+.main-container {
+    padding: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-type {
+    margin-top: 10rem;
+    padding: 2rem;
+    font-size: 6rem;
+}
+
+.sub-type {
+    display: none;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.button-type {
+    border-radius: .1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem;
+    border:1px solid black;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: .7rem;
+}
+
+.password-type {
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+
+@media only screen and (max-width:523px) {
+    .main-type {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .sub-type {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .password-type {
+        font-size: 2rem;
+    }
+}
+
+.button-type:active {
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+#specialchar {
+    height: 1.5rem;
+    aspect-ratio: 1;
+}
+
+#clipboard {
+    background: transparent;
+    border: none;
+    display:none;
+    color:white;
+}
+#clipboard:active{
+    color: rgba(255, 255, 255, 0.711);
+}
